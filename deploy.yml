@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yfinance
+  labels:
+    app: yfinance
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: yfinance
+  template:
+    metadata:
+      labels:
+        app: yfinance
+    spec:
+      containers:
+        - name: yfinance
+          image: karunkkrp/app:v1
+          ports:
+            - containerPort: 5000
