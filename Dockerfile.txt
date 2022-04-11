@@ -1,0 +1,7 @@
+FROM python
+WORKDIR /myapp
+COPY . /myapp
+RUN pip3 install -r requirements.txt
+RUN pip install yfinance --upgrade --no-cache-dir
+EXPOSE 80
+CMD ["python","app.py"]
