@@ -11,11 +11,17 @@ The mini project works on the following aspects of Cloud applications:
 Support for cloud scalability, deployment in a container environment.
 Security Features.
 
-What is it?
+What is it? 
+
+
 The application uses the yahoo finance API which gives the real time ticker data of stocks through the external API. The web application takes the input from the users and fetches the data and displays.
+
+
 To demonstrate REST APIs CRUD operations, we are using MongoDB Atlas which is a cloud-based data base. 
 To deploy our app on the GCP instance we used Kubernetes engine, and we created a cluster and connected with the GCP instance.
 Prerequisites
+
+
 In order to run the application, we need to have Python and Flask. We are also using Linux environment with the below commands.
 First of all, we have to install Python:
 sudo apt-get install python3-pip
