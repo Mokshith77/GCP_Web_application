@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+      <style>
+body
+{
+background-image:url("https://cdn.britannica.com/18/216518-050-7EA8BFA5/traders-professionals-opening-bell-New-York-Stock-Exchange-NYSE-January-2-2019.jpg");
+}
+      </style>
+    </head>
+     <span style = "background-color: black;color: seashell;font-size: 42px">Stock Data Entry</span>
+        <form action="{{url_for('update')}}" method="post">
+            <span style="background-color: floralwhite;font-size: 18px;">Please enter the ticker symbol to UPDATE :</span>
+           <p><input type = "text" name="symbol"></p>
+           <p><input type = "submit" value="submit"></p>
+       </form>
+    <a href="{{url_for('route_home')}}"><span style="font-size: 30px;color: darkorange">HOME</span></a>
+</html>
