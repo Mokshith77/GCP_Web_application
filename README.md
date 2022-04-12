@@ -25,7 +25,7 @@ The mini project works on the following aspects of Cloud applications:
 
 Security Features.
 
-What is it? 
+#What is it? 
 
 
 The application uses the yahoo finance API which gives the real time ticker data of stocks through the external API. The web application takes the input from the users and fetches the data and displays.
